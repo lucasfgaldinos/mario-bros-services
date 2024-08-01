@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros.</title>
+</head>
+<body>
+    <header>
+        <img class="icon" src="./assets/imgs/mario-icon.png" alt="Mario icon">
+        <a href="#" class="link-header">Home</a>
+        <a href="#" class="link-header link-header-fale-conosco">Fale Conosco</a>
+        <a href="#" class="link-header">Nossos Serviços</a>
+    </header>
+
+    <main>
+        <section class="section-info">
+            <img class="logo" src="./assets/imgs/logo.png" alt="The Super Mario Bros. Logo">
+            <p class="p-title">🔧Encanadores Mario & Luiji - Resolvendo seu problemas hidráulicos com Estilo!</p>
+            <br>
+            <p class="p-content">
+                Você já se encontrou em uma situação de emergência com encanamento?
+                Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar?
+                Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a você os
+                Encanadores mais famosos do Reino do Cogumelos - Mario e Luiji!
+            </p>
+            <button class="btn-contato">ENTRE EM CONTATO</button>
+        </section>
+        <section class="section-img">
+            <img class="mario-luigi" src="./assets/imgs/mario-luigi.png" alt="Mario & Luiji">
+        </section>
+    </main>
+    <div class="div-video">
+        <video autoplay muted loop src="./assets/videos/video.mp4"></video>
+        <div class="mascara"></div>
+    </div>
+    
+    <img class="whatsapp-logo" src="./assets/imgs/whatsapp-logo.png" alt="Whatsapp logo">
+
+    <form>
+        <input id="nome" placeholder="Seu Nome" type="text" name="nome">
+        <input id="whatsapp" placeholder="Seu Whatsapp" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="problema"></textarea>
+        <button id="btn-pedir-orcamento" type="submit">PEDIR ORÇAMENTO</button>
+    </form>
+
+    <div class="mascara-form"></div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
